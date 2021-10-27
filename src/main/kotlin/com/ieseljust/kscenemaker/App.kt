@@ -210,6 +210,8 @@ class App {
                                     // Modificar les dimensions de l'escena
                                     // especificades al fitxer
                                     try{
+                                        escena.tamX = items[1].toInt()
+                                        escena.tamY = items[2].toInt()
 
                                     }catch (e :Exception){
 
